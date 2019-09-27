@@ -9,6 +9,9 @@ const User = () => {
     <div>
       {user.firstName}
       {user.lastName}
+      {user.email}
+      {user.username}
+      {user.password}
     </div>
   )
 }

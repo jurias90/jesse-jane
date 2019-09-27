@@ -25,6 +25,9 @@ const initialState = {
   user: {
     firstName: 'Cody',
     lastName: 'Lopez',
+    email: 'isuck@gmail.com',
+    username: 'isuck',
+    password: 'password',
   },
 };
 

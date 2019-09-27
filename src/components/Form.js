@@ -31,7 +31,10 @@ const Form = ({ dispatchUpdateUser }) => {
     <div>
       <input name="firstName" value={user.firstName} onChange={onChange} />
       <input name="lastName" value={user.lastName} onChange={onChange} />
-
+      <input name="email" value ={user.email} onChange={onChange} />
+      <input name="username" value ={user.username} onChange={onChange} />
+      <input name="password" value ={user.password} onChange={onChange} />
+      <button name="submit">Submit</button>
     </div>
   )
 }
