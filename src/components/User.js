@@ -7,11 +7,16 @@ const User = () => {
 
   return (
     <div>
-      {user.firstName}
-      {user.lastName}
-      {user.email}
-      {user.username}
-      {user.password}
+      <p>First Name: {user.firstName}</p>
+      
+      <p>Last Name: {user.lastName}</p>
+      
+      <p>Email: {user.email}</p>
+      
+      <p>UserName: {user.username}</p>
+      
+      <p>Password: {user.password}</p>
+     
     </div>
   )
 }

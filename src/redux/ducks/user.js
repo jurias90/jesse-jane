@@ -23,11 +23,12 @@ export const updateUser = createAction(UPDATE_USER);
 */
 const initialState = {
   user: {
-    firstName: 'Cody',
-    lastName: 'Lopez',
-    email: 'isuck@gmail.com',
-    username: 'isuck',
-    password: 'password',
+    firstName: '',
+    lastName: '',
+    email: '',
+    username: '',
+    password: '',
+    isEnabled:false
   },
 };
 
