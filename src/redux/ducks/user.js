@@ -28,7 +28,7 @@ const initialState = {
     email: '',
     username: '',
     password: '',
-    isEnabled:false
+    //isEnabled:false
   },
 };
 
