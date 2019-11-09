@@ -1,5 +1,5 @@
-import { createAction } from 'redux-actions';
-import update from 'immutability-helper';
+import { createAction } from "redux-actions";
+import update from "immutability-helper";
 
 /*
 |-------------------------------------------------------------------------------
@@ -7,7 +7,7 @@ import update from 'immutability-helper';
 |-------------------------------------------------------------------------------
 */
 
-export const UPDATE_USER = 'user/UPDATE_USER';
+export const UPDATE_USER = "user/UPDATE_USER";
 
 /*
 |-------------------------------------------------------------------------------
@@ -23,13 +23,17 @@ export const updateUser = createAction(UPDATE_USER);
 */
 const initialState = {
   user: {
-    firstName: '',
-    lastName: '',
-    email: '',
-    username: '',
-    password: '',
-    //isEnabled:false
-  },
+    firstName: "",
+    lastName: "",
+    streetnumber: "",
+    route: "",
+    locality: "",
+    administrative_area_level_1: "",
+    postal_code: "",
+    email: "",
+    username: "",
+    password: ""
+  }
 };
 
 export const userReducer = (state = initialState, { type, payload }) => {
@@ -41,4 +45,3 @@ export const userReducer = (state = initialState, { type, payload }) => {
       return state;
   }
 };
-
